@@ -32,9 +32,9 @@ export const config = {
     // 每日一言
     oneTalk: true,
     // 土味情话(彩虹屁)
-    earthyLoveWords: false,
+    earthyLoveWords: true,
     // 朋友圈文案
-    momentCopyrighting: true,
+    momentCopyrighting: false,
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
@@ -64,7 +64,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oI2Ej6dMqAJ1GwWWLxpDaDuFWhlc",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "l-kdASWS58zE4oF-PQjUVQFUV9m7tznyS_vmxGy28Yc",
+      useTemplateId: "Rf4fBX6Ea4W3GmqUDrawv0aWYu3WjAzLFLs9fahKqcg",
       // 所在省份
       province: "湖北",
       // 所在城市
@@ -86,22 +86,22 @@ export const config = {
       ],
       // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
       customizedDateList: [
+        // 认识的日子
+        {"keyword": "know_day", date: "2020-04-28"},
         // 在一起的日子
         {"keyword": "love_day", date: "2021-02-06"},
-        // 结婚纪念日
-        // {"keyword": "marry_day", date: "2022-09-09"},
         // 退伍日
         // {"keyword": "ex_day", date: "2022-09-10"},
       ]
     },
     // {
-    //   name: "老婆1",
-    //   id: "",
-    //   useTemplateId: "",
-    //   province: "",
-    //   city: "",
-    //   horoscopeDate: '',
-    //   horoscopeDateType: '',
+    //   name: "傻狗鄢凤琪",
+    //   id: "oI2Ej6WlVC1IswBXtLijFQzbiGPw",
+    //   useTemplateId: "l-kdASWS58zE4oF-PQjUVQFUV9m7tznyS_vmxGy28Yc",
+    //   province: "浙江",
+    //   city: "杭州",
+    //   horoscopeDate: '02-03',
+    //   horoscopeDateType: '本月',
     //   openUrl: "https://wangxinleo.cn",
     //   festivals: [],
     //   customizedDateList: []
@@ -139,7 +139,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "	zAUP2m11BykcQAdDeoqyfJE_y00IEHyLyWR3kCJDqgI",
+  CALLBACK_TEMPLATE_ID: "zAUP2m11BykcQAdDeoqyfJE_y00IEHyLyWR3kCJDqgI",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
